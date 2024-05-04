@@ -140,23 +140,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGPP1jy1+9merU=",
-											"_parent": {
-												"$ref": "AAAAAAGPP1KBpu1UbuI="
-											},
-											"model": {
-												"$ref": "AAAAAAGPP1jy0u9jC8I="
-											},
-											"font": "Arial;13;0",
-											"left": 413,
-											"top": 301,
-											"width": 119,
-											"height": 13,
-											"text": "-Cadeiras",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGPP1j19e9s5Fg=",
 											"_parent": {
 												"$ref": "AAAAAAGPP1KBpu1UbuI="
@@ -166,7 +149,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 413,
-											"top": 316,
+											"top": 301,
 											"width": 119,
 											"height": 13,
 											"text": "-Carteiras",
@@ -183,7 +166,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 413,
-											"top": 331,
+											"top": 316,
 											"width": 119,
 											"height": 13,
 											"text": "-Professores",
@@ -200,7 +183,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 413,
-											"top": 346,
+											"top": 331,
 											"width": 119,
 											"height": 13,
 											"text": "-Portas",
@@ -217,7 +200,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 413,
-											"top": 361,
+											"top": 346,
 											"width": 119,
 											"height": 13,
 											"text": "-Janelas",
@@ -228,7 +211,7 @@
 									"left": 408,
 									"top": 281,
 									"width": 129,
-									"height": 98
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -241,7 +224,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 408,
-									"top": 379,
+									"top": 364,
 									"width": 129,
 									"height": 10
 								},
@@ -5634,9 +5617,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 451,
+									"left": 450,
 									"top": 440,
-									"width": 24.93994140625,
+									"width": 26.83154296875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5726,16 +5709,8 @@
 								"$ref": "AAAAAAGPP1KBUu1M//0="
 							},
 							"name": "Alunos",
-							"visibility": "private"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGPP1jy0u9jC8I=",
-							"_parent": {
-								"$ref": "AAAAAAGPP1KBUu1M//0="
-							},
-							"name": "Cadeiras",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5744,7 +5719,8 @@
 								"$ref": "AAAAAAGPP1KBUu1M//0="
 							},
 							"name": "Carteiras",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5753,7 +5729,8 @@
 								"$ref": "AAAAAAGPP1KBUu1M//0="
 							},
 							"name": "Professores",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5762,7 +5739,8 @@
 								"$ref": "AAAAAAGPP1KBUu1M//0="
 							},
 							"name": "Portas",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5771,7 +5749,8 @@
 								"$ref": "AAAAAAGPP1KBUu1M//0="
 							},
 							"name": "Janelas",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -5821,7 +5800,8 @@
 								"$ref": "AAAAAAGPP1LW3+113ZM="
 							},
 							"name": "Boletim",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -5910,7 +5890,8 @@
 								"$ref": "AAAAAAGPP1Lnie3HLaE="
 							},
 							"name": "Livros",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5919,7 +5900,8 @@
 								"$ref": "AAAAAAGPP1Lnie3HLaE="
 							},
 							"name": "Revistas",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5928,7 +5910,8 @@
 								"$ref": "AAAAAAGPP1Lnie3HLaE="
 							},
 							"name": "Computador",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5937,7 +5920,8 @@
 								"$ref": "AAAAAAGPP1Lnie3HLaE="
 							},
 							"name": "Bibliotecario",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -5987,7 +5971,8 @@
 								"$ref": "AAAAAAGPP1LtUe3wTsQ="
 							},
 							"name": "Escorregador",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5996,7 +5981,8 @@
 								"$ref": "AAAAAAGPP1LtUe3wTsQ="
 							},
 							"name": "Balanço",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -6046,7 +6032,8 @@
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
 							"name": "Giz",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6055,7 +6042,8 @@
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
 							"name": "Quadro_negro",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6063,7 +6051,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
-							"name": "Computador"
+							"name": "Computador",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6071,7 +6060,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
-							"name": "Mouse"
+							"name": "Mouse",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6079,7 +6069,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
-							"name": "Teclado"
+							"name": "Teclado",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6088,7 +6079,8 @@
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
 							"name": "Regua",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6096,7 +6088,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1L1xO4Z6cY="
 							},
-							"name": "Monitor"
+							"name": "Monitor",
+							"type": ""
 						}
 					]
 				},
@@ -6213,7 +6206,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Cabo_panela",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6222,7 +6216,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Pao",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6231,7 +6226,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Panela",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6239,7 +6235,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
-							"name": "Pia"
+							"name": "Pia",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6248,7 +6245,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Geladeira",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6257,7 +6255,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Fogão",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6266,7 +6265,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Leite",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6284,7 +6284,8 @@
 								"$ref": "AAAAAAGPP1MPf+5sx4A="
 							},
 							"name": "Tampa_panela",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -6328,7 +6329,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Armario",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6337,7 +6339,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Cama",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6346,7 +6349,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Sofa",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6355,7 +6359,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Mesa",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6364,7 +6369,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Porta",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6373,7 +6379,8 @@
 								"$ref": "AAAAAAGPP1MW8e6VgqM="
 							},
 							"name": "Lampada",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6450,7 +6457,8 @@
 								"$ref": "AAAAAAGPP1Mg3O6+rYQ="
 							},
 							"name": "Mesa",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -6499,7 +6507,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPP1Muxu7nyJQ="
 							},
-							"name": "Pia"
+							"name": "Pia",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6508,7 +6517,8 @@
 								"$ref": "AAAAAAGPP1Muxu7nyJQ="
 							},
 							"name": "Sabonete",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -6558,7 +6568,8 @@
 								"$ref": "AAAAAAGPP1N95O8Xe80="
 							},
 							"name": "Sofar",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6567,7 +6578,8 @@
 								"$ref": "AAAAAAGPP1N95O8Xe80="
 							},
 							"name": "Abajur",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				}
