@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    main {
+        height: 40dvh;
+    }
+
+    header img {
+        height: 28dvh;
+        border-radius: 50%;
+        margin-left: 2dvh;
+    }
+
+
+    h1 {
+        font-size: 5dvh;
+        text-shadow: .5dvh .5dvh var(--textsub);
+    }
+
+    header {
+        height: 42dvh;
+        display: flex;
+        align-items: center;
+        gap: 3dvh;
+    }
+
+    main {
+        background: var(--blackback);
+        height: 60dvh;
+        border-top: var(--orangeback) solid .5dvh;
+        box-shadow: var(--navback) 0 8dvh 20dvh;
+        gap: 2dvh;
+        padding: 3dvh 0 0 0;
+    }
+
+    .redes{
+        gap: 4.5dvh;
+    }
+
+    .redes img {
+        height: 8dvh;
+    }
+
+    main>.links,
+    main>.redes {
+        font-size: 3.5dvh;
+    }
+}

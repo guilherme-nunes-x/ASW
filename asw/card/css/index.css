@@ -1,0 +1,92 @@
+:root {
+    --blackback: #000000;
+    --orangeback: #DB7E14;
+    --text: #E2E2E2;
+    --textsub: #e2e2e27a;
+    --navback: #B56810;
+    font-family: "Roboto Mono", monospace;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    height: 90dvh;
+    background: var(--blackback);
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    gap: 10dvh;
+}
+
+main {
+    background: var(--blackback);
+    height: 80dvh;
+    border-top: var(--orangeback) solid .5dvh;
+    box-shadow: var(--navback) 0 8dvh 20dvh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5dvh 0 0 0;
+    transition: all .5s;
+}
+
+main>.links,
+main>.redes {
+    color: var(--orangeback);
+    font-size: 6dvh;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+a,
+p {
+    all: inherit;
+    cursor: pointer;
+}
+
+header img {
+    height: 70dvh;
+    border-radius: 50%;
+    margin-left: 10dvh;
+    border: var(--text) solid .5dvh;
+}
+
+h1 {
+    font-size: 10dvh;
+    text-shadow: .5dvh .5dvh var(--textsub);
+}
+
+.redes img {
+    height: 15dvh;
+    opacity: 0.4;
+    transition: all .5s;
+}
+
+.redes img:hover {
+    opacity: 1;
+}
+
+.redes,
+.imgred {
+    display: flex;
+    gap: 3.5dvh;
+    color: var(--orangeback)
+}
+
+.redes {
+    flex-direction: column;
+    text-align: center;
+    gap: 5dvh;
+}
+
+main {
+    text-align: center;
+    gap: 5dvh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
